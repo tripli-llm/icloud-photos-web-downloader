@@ -1,0 +1,20 @@
+{
+  "name": "iCloud Photos Web Downloader",
+  "version": "1.0.0",
+  "description": "iCloud 照片下载脚本",
+  "main": "index.js",
+  "scripts": {
+    "downloader": "tsx icloud_downloader.ts",
+    "download": "tsx icloud_downloader.ts",
+    "test:system-tar": "tsx test_system_tar.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.58.2",
+    "tsx": "^4.20.6"
+  }
+}
